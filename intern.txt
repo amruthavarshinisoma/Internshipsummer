@@ -1,0 +1,234 @@
+***from local repository to remote repository a folder***
+
+Microsoft Windows [Version 10.0.26100.3775]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\cheer\Downloads\Github>git init
+Reinitialized existing Git repository in C:/Users/cheer/Downloads/Github/.git/
+
+C:\Users\cheer\Downloads\Github>git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\cheer\Downloads\Github>git remove origin
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+C:\Users\cheer\Downloads\Github>git remote remove origin
+
+C:\Users\cheer\Downloads\Github>git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\cheer\Downloads\Github>git add .
+
+C:\Users\cheer\Downloads\Github>git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'cheer@Cloud_Nine.(none)')
+
+C:\Users\cheer\Downloads\Github> git config --global user.amruthavarshinisoma@gmail.com
+
+C:\Users\cheer\Downloads\Github> git config --global user.amruthavarshinisoma
+
+C:\Users\cheer\Downloads\Github>git branch -M main
+
+C:\Users\cheer\Downloads\Github>git pull --rebase origin main
+error: cannot pull with rebase: Your index contains uncommitted changes.
+error: Please commit or stash them.
+
+C:\Users\cheer\Downloads\Github>git commit -m "final commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'cheer@Cloud_Nine.(none)')
+
+C:\Users\cheer\Downloads\Github>git add .
+
+C:\Users\cheer\Downloads\Github>git commit -m "Your message"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'cheer@Cloud_Nine.(none)')
+
+C:\Users\cheer\Downloads\Github> git config --global user.amruthavarshinisoma@gmail.com
+
+C:\Users\cheer\Downloads\Github> git config --global user.amruthavarshinisoma
+
+C:\Users\cheer\Downloads\Github>
+
+C:\Users\cheer\Downloads\Github>git commit -m "Your message"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'cheer@Cloud_Nine.(none)')
+
+C:\Users\cheer\Downloads\Github>git config --global --list
+user.soma=Amrutha
+
+C:\Users\cheer\Downloads\Github>git config --global user.email "22a85a0518@sves.org.in"
+
+C:\Users\cheer\Downloads\Github>git config --global --list
+user.soma=Amrutha
+user.email=22a85a0518@sves.org.in
+
+C:\Users\cheer\Downloads\Github>git commit -m "initial commit"
+[main 008e80a] initial commit
+ 1 file changed, 77 insertions(+)
+ create mode 100644 Spiral.java
+
+C:\Users\cheer\Downloads\Github>git branch -M main
+
+C:\Users\cheer\Downloads\Github>git pull --rebase origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\cheer\Downloads\Github>git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\cheer\Downloads\Github>it remote add origin https://github.com/amruthavarshinisoma/Internshipsummer
+'it' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\cheer\Downloads\Github>git remote add origin https://github.com/amruthavarshinisoma/Internshipsummer
+
+C:\Users\cheer\Downloads\Github>git add .
+
+C:\Users\cheer\Downloads\Github>git commit -m "intial commit"
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\cheer\Downloads\Github>git branch -M amin
+
+C:\Users\cheer\Downloads\Github>git pull --rebase origin main
+From https://github.com/amruthavarshinisoma/Internshipsummer
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Current branch amin is up to date.
+
+C:\Users\cheer\Downloads\Github>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/amruthavarshinisoma/Internshipsummer'
+
+C:\Users\cheer\Downloads\Github>git init
+Reinitialized existing Git repository in C:/Users/cheer/Downloads/Github/.git/
+
+C:\Users\cheer\Downloads\Github>git add .
+
+C:\Users\cheer\Downloads\Github>git commit -m "Initial commit"
+On branch amin
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Spiral.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\cheer\Downloads\Github>git commit -a
+Aborting commit due to empty commit message.
+
+C:\Users\cheer\Downloads\Github>git branch -M main
+
+C:\Users\cheer\Downloads\Github>git pull --rebase origin main
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\cheer\Downloads\Github>git commit -m "Initial commit"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Spiral.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\cheer\Downloads\Github>git pull --rebase origin main
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\cheer\Downloads\Github>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.03 KiB | 352.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/amruthavarshinisoma/Internshipsummer
+   16e2355..008e80a  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\cheer\Downloads\Github>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\cheer\Downloads\Github>
+**branching and merging**
+braching is sub plot of your project
+https://dazzling-dirigible-233.notion.site/GIT-COMMANDS-1a6632c4a2bd8003a0a3dfde52c95c10 git commands
